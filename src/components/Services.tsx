@@ -94,8 +94,9 @@ const Services = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
                   asChild
+                  variant="accent"
                   size="lg"
-                  className="btn-accent px-8 py-4 rounded-full"
+                  className="px-8 py-4 rounded-full"
                 >
                   <a href="https://wa.me/5566999883244">
                     <Phone className="h-5 w-5 mr-2" />
@@ -104,9 +105,9 @@ const Services = () => {
                 </Button>
                 <Button 
                   asChild
-                  variant="outline"
+                  variant="hero"
                   size="lg"
-                  className="btn-secondary px-8 py-4 rounded-full"
+                  className="px-8 py-4 rounded-full"
                 >
                   <a href="#contato">
                     Fale conosco

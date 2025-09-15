@@ -53,8 +53,9 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 asChild
+                variant="accent"
                 size="lg"
-                className="btn-accent px-8 py-4 text-lg rounded-full"
+                className="px-8 py-4 text-lg rounded-full"
               >
                 <a href="https://wa.me/5566999883244">
                   Solicitar orçamento
@@ -62,9 +63,9 @@ const Hero = () => {
               </Button>
               <Button 
                 asChild
-                variant="outline"
+                variant="hero"
                 size="lg"
-                className="btn-secondary px-8 py-4 text-lg rounded-full"
+                className="px-8 py-4 text-lg rounded-full"
               >
                 <a href="#servicos">
                   Nossos serviços

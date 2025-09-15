@@ -64,7 +64,8 @@ const Header = () => {
             </div>
             <Button 
               asChild
-              className="btn-primary px-4 py-2 rounded-full text-sm"
+              variant="default"
+              className="px-4 py-2 rounded-full text-sm"
             >
               <a href="https://wa.me/5566999883244">
                 Fale conosco
@@ -104,7 +105,8 @@ const Header = () => {
                 </div>
                 <Button 
                   asChild
-                  className="btn-primary w-full"
+                  variant="default"
+                  className="w-full"
                 >
                   <a href="https://wa.me/5566999883244">
                     Fale conosco

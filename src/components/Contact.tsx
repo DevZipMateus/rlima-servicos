@@ -116,8 +116,9 @@ const Contact = () => {
                 <div className="space-y-4">
                   <Button 
                     asChild
+                    variant="accent"
                     size="lg"
-                    className="btn-accent w-full py-4 text-lg rounded-full"
+                    className="w-full py-4 text-lg rounded-full"
                   >
                     <a href="https://wa.me/5566999883244">
                       <MessageCircle className="h-5 w-5 mr-2" />
@@ -129,7 +130,7 @@ const Contact = () => {
                     asChild
                     variant="outline"
                     size="lg"
-                    className="w-full py-4 text-lg rounded-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                    className="w-full py-4 text-lg rounded-full"
                   >
                     <a href="mailto:ronilvo@hotmail.com">
                       <Mail className="h-5 w-5 mr-2" />
