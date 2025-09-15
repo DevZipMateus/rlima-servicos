@@ -130,7 +130,7 @@ Paleta 60/30/10: 60% branco, 30% azul royal, 10% laranja
   }
   
   .btn-secondary {
-    @apply bg-white/10 text-white border border-white/60 hover:bg-accent hover:text-accent-foreground hover:border-accent transition-all duration-300;
+    @apply bg-white/20 text-white border-2 border-white/80 hover:bg-accent hover:text-accent-foreground hover:border-accent transition-all duration-300 backdrop-blur-sm;
   }
   
   .btn-accent {
