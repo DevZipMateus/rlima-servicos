@@ -84,13 +84,6 @@ const Hero = () => {
                   className="w-full max-w-sm h-auto"
                 />
               </div>
-              {/* Floating Elements */}
-              <div className="absolute -top-4 -right-4 bg-accent rounded-full p-4 shadow-button">
-                <div className="w-6 h-6 bg-accent-foreground rounded-full"></div>
-              </div>
-              <div className="absolute -bottom-4 -left-4 bg-white/20 rounded-full p-3">
-                <div className="w-4 h-4 bg-white rounded-full"></div>
-              </div>
             </div>
           </div>
         </div>
