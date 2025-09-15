@@ -81,7 +81,7 @@ const Hero = () => {
                 <img 
                   src="/logo.png" 
                   alt="RLima Serviços - Especialista em equipamentos de construção" 
-                  className="w-full max-w-sm h-auto"
+                  className="w-full max-w-lg h-auto"
                 />
               </div>
             </div>

@@ -34,7 +34,7 @@ const Header = () => {
             <img 
               src="/logo.png" 
               alt="RLima Serviços - Logo" 
-              className="h-10 md:h-12 w-auto"
+              className="h-12 md:h-16 w-auto"
             />
             <div className="hidden sm:block">
               <h2 className="text-lg md:text-xl font-bold text-primary">RLima Serviços</h2>
