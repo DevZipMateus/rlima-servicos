@@ -1,19 +1,13 @@
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-gradient-primary text-white">
+  return <footer className="bg-gradient-primary text-white">
       <div className="container-custom">
         <div className="py-12">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <img 
-                  src="/logo.png" 
-                  alt="RLima Serviços" 
-                  className="h-12 w-auto"
-                />
+                <img src="/logo.png" alt="RLima Serviços" className="h-12 w-auto" />
                 <div>
                   <h3 className="text-lg font-bold">RLima Serviços</h3>
                   <p className="text-sm text-blue-200">Soluções em equipamentos</p>
@@ -86,17 +80,13 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-sm text-blue-200">
-              © 2024 RLima Serviços. Todos os direitos reservados.
-            </div>
+            <div className="text-sm text-blue-200">© 2025 RLima Serviços. Todos os direitos reservados.</div>
             <div className="text-sm text-blue-200">
               Desenvolvido com ❤️ para equipamentos de construção
             </div>
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
